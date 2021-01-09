@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
+html,body {
+  background-color: #f4a261;
+}
+
+#mainApp{
+  background-color: inherit;
+}
+
+#quote-area{
+  background-color: #2a9d8f;
+}
+
+#quote-author, #quote-text {
+  color: #264653
+}
+
+#quote-text {
+  font-family: 'Parisienne', cursive;
+  color: black;
+}
