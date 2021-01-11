@@ -39,8 +39,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
 
+html{
+  background: rgb(0,119,182);
+}
+
 html,body {
-  background-color: #f4a261;
+  background: rgb(0,119,182);
+  background: linear-gradient(90deg, rgba(0,119,182,1) 0%, rgba(0,150,199,1) 50%, rgba(0,119,182,1) 100%);
+
 }
 
 #mainApp{
@@ -48,7 +54,7 @@ html,body {
 }
 
 #quote-box{
-  background-color: #2a9d8f;
+  
 }
 
 #author, #text {
