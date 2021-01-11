@@ -47,15 +47,15 @@ html,body {
   background-color: inherit;
 }
 
-#quote-area{
+#quote-box{
   background-color: #2a9d8f;
 }
 
-#quote-author, #quote-text {
+#author, #text {
   color: #264653
 }
 
-#quote-text {
+#text {
   font-family: 'Parisienne', cursive;
   color: black;
 }

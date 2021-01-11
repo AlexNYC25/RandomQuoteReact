@@ -88,21 +88,30 @@ function App() {
 
       </div>
       <br />
-      <div id="quote-area" className="container rounded-3">
-        <p id="quote-text" className="h2 text-center p-1">
+      <div id="quote-box" className="container rounded-3">
+        <p id="text" className="h2 text-center p-1">
           <strong>{ retrieveQuote(quoteNumber) }</strong>
         </p>
         <img src={retrieveImage(quoteNumber)} alt="quote author"/>
-        <p id="quote-author" className="h3 text-center p-1 pt-3 ">
+        <p id="author" className="h3 text-center p-1 pt-3 ">
           <i>{retrieveAuthor(quoteNumber)}</i>
         </p>
         <button
+          id="new-quote"
           className="btn btn-primary pb-2"
           type="submit"
           onClick={getNewNumber}
         >
           Get a New Quote
         </button>
+        <a
+          id="tweet-quote"
+          className="btn btn-primary pb-2"
+          href="twitter.com/intent/tweet"
+          target="_blank"
+        >
+          Tweet Quote
+        </a>
         <br />
       </div>
     </div>
