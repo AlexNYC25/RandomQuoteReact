@@ -46,7 +46,15 @@ html{
 html,body {
   background: rgb(0,119,182);
   background: linear-gradient(90deg, rgba(0,119,182,1) 0%, rgba(0,150,199,1) 50%, rgba(0,119,182,1) 100%);
+  background-image: url('./images/pexels-pixabay-207691.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 
+}
+
+#welcome-message{
+  background-color: #e2e3e6c4;
+  width: 80%;
 }
 
 #mainApp{
@@ -54,6 +62,7 @@ html,body {
 }
 
 #quote-box{
+  background-color: #e2e3e6c4;
   
 }
 
