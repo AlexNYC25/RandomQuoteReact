@@ -83,7 +83,7 @@ function App() {
 
   return (
     <div id="mainApp" className="App container">
-      <div id="welcome-message" class="pt-2">
+      <div id="welcome-message" className="container pt-2 rounded-3">
         <p className="h1">Hello and I Hope one of these quotes may inspire you</p>
 
       </div>
